@@ -3,30 +3,33 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <div className="logo">
+    <div className=" text-[200%]
+    px-[50px] py-[20px] max-w-full">
     My exciting website!
    </div>
-
-    <nav>
-     <ul>
-       <li>
-        <a href="">Home</a>
-       </li>
-        <li>
-         <a href="">Blog</a>
-       </li>
-       <li>
-          <a href="">About us</a>
-       </li>
-        <li>
-         <a href="">Our history</a>
-       </li>
-       <li>
-         <a href="">Contacts</a>
-      </li>
-     </ul>
+   <div className="container
+   sticky top-0 left-0 right-0 bg-black
+   ">
+    <nav className ="text-white flex" >
+     <div>
+      Home
+     </div>
+     <div>
+      Blog
+     </div>
+     <div>
+      About us
+     </div>
+     <div>
+      Our history
+     </div>
+     <div>
+      Contacts
+      </div>
    </nav>
-    <main className="grid">
+   </div>
+   <div  className ="flex-none w-[50%]">
+    <main className="my-[20px]">
     <article>
       <h1>
         An Exciting Blog Post
@@ -53,7 +56,7 @@ export default function Home() {
 
     </article>
 
-    <aside>
+    <div>
       <h2>
         Photography
       </h2>
@@ -75,8 +78,9 @@ export default function Home() {
         </li>
       </ul>
 
-    </aside>
+    </div>
     </main>
+    </div>
     </>
     
   )
