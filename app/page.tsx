@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
     <h1>michael`s page</h1>
-    <p>hello!</p>
+    <p className ="bold">hello!</p>
     <p>welcome!</p>
     </>
     
